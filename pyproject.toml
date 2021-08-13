@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gcn-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Clifford Ressel <CSRessel@gmail.com>"]
+
+[tool.poetry.dependencies]
+papermill = "^2.3"
+python = "^3.9"
+feedparser = "^6.0.8"
+google-api-python-client = "^2.15.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.4.5"
+ffmpeg-python = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+notebook = "^6.4"
+pylint = "^2.9"
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
